@@ -8,8 +8,11 @@
     <form action="/summarize" method="POST">
         <label for="url">URL:</label>
         <input type="text" name="url" id="url" required><br><br>
-        <label for="length">Length:</label>
-        <input type="number" name="length" id="length" required><br><br>
+        <label for="url">Stop:</label>
+        <select name="stop_python" id="stop_python">
+            <option value="0">0</option>
+            <option value="1">stop</option>
+        </select><br><br>
         <input type="submit" value="Summarize">
     </form>
 </body>
