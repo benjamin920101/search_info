@@ -17,7 +17,7 @@ prompt = st.text_input('Tweet topic: ')
 # Prompt templates
 title_template = PromptTemplate(
     input_variables = ['topic'],
-    template='給我寫一則關於 {topic} 的推文'
+    template='請寫一則關於 {topic} 的推文'
 )
 
 tweet_template = PromptTemplate(
